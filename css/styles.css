@@ -1,0 +1,27 @@
+.container{
+    width: 300px;
+    margin: 100px auto;
+    border: 1px solid #000;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+   
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.error-message{
+    color: red;
+    font-size: 12px;
+}
+
+input.error{
+    border: 1px solid red;
+}
